@@ -9,6 +9,7 @@ const sammy = (nums) => {
 	return intRand
 }
 
+
 setTimeout(function() {
 	console.log(sammy(5, 5, 5))
 }, 175)
@@ -19,3 +20,9 @@ setTimeout(function() {
 setTimeout(function() {
 	console.log(sammy(3, 3, 3))
 }, 500)
+
+
+
+//setInterval(()=>{
+// USE for jackpot 
+//})
