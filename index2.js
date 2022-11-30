@@ -5,6 +5,16 @@ function game(){
 
   const attempts = numberAttempts(3,12);
 
+  
+  let arraySimbols = [
+    '😣',
+    '😁',
+    '😴',
+    '🤩',
+    '🙄',
+    '🤗'
+  ];
+
   let t1 = 0, t2 = 0, t3 = 0;
 
   let slot1 = setInterval(function(){
